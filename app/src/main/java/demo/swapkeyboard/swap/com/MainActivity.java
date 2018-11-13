@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Add this to enter a device
-        new SecureDevicePreferences(this).save("DEVICE");
+        SecureDevicePreferences secureDevice = new SecureDevicePreferences(this);
+        secureDevice.saveAPIKey("swap");
+        secureDevice.save("DEVICE");
+
     }
 }
