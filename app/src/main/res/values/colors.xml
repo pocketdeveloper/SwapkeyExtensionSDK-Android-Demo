@@ -5,29 +5,38 @@
     <color name="colorAccent">#D81B60</color>
 
 
-    <!--SwapKey Colors-->
+    <!--SwapKey Base Colors-->
+    <color name="swap_red">@color/activityColor</color>
+
+    <!-- Labels-->
+    <color name="lblTitleColor">@color/activityColor</color>  <!-- ups titulo de error-->
+    <color name="lblNormalColor">@color/genaralTitlesColor</color> <!-- mensaje de error -->
+
+    <!-- Card-->
+    <color name="stripeCardBackgroundColor">#DEEDF2</color><!-- tira en confiramacipon de pago -->
+    <color name="stripeCardTextColor">@color/genaralTitlesColor</color><!-- color del texto dentro de la tira -->
+
+    <!-- History-->
+    <color name="paidColor">#63B468</color>
+    <color name="pendingColor">#1bB3BC</color>
+
+    <!-- Color de fondo-->
+    <color name="swap_key_background">#FFF      </color>
+
+    <!--Color del progress wheel-->
+    <color name="progress_wheel_color">@color/activityColor</color>
+
+    <!--Color de los títulos y color de los números-->
+    <color name="genaralTitlesColor">#6F7779</color>
+
+    <!--Color de íconos-->
     <color name="ic_keyboard_color">@color/lblNormalColor</color>
     <color name="ic_back_color">@color/lblNormalColor</color>
     <color name="ic_backspace_color">@color/lblNormalColor</color>
 
-    <color name="progress_wheel_color">@color/activityColor</color>
-    <color name="swap_text_amount">@color/amountsColor</color>
-    <color name="swap_invalid_amount">@color/errorColor</color>
+    <!-- Error-->
+    <color name="errorColor">#FFCC33</color>
 
-    <color name="swap_primary_color">@color/activityColor</color>
-    <color name="swap_red">@color/activityColor</color><!--????-->
-    <color name="swap_history_card_background">#F7F7F7</color>
-    <color name="swap_text_color">#9A9A9A</color>
-    <color name="swap_key_background">@color/backgroundCustomColor</color><!-- background-->
-    <color name="swap_pending_status">@color/pendingColor</color>
-    <color name="swap_cancelled_status">#FF4B4b</color>
-    <color name="swap_paid_status">@color/paidColor</color>
-    <color name="swap_text_error_color">@color/swap_red</color>
-
-
-    <color name="swap_number_color">#C8C8C8</color>
-    <color name="swap_title_start">#787878</color>
-    <color name="white_50">#80ffffff</color>
 
     <!--buttons -->
     <color name="btn_primary">@color/swap_red</color>
@@ -37,39 +46,6 @@
     <color name="btn_primary_text_color">#FFF</color>
     <color name="btn_primary_text_color_selected">#FFF</color>
     <color name="btn_primary_text_color_disable">#FFF</color>
-    <color name="swap_background_label_payment_confirmation">#D6F2F2</color>
-    <color name="swap_text_color_alias_payment_confirmation">#4C77A5</color>
-
-    <color name="swap_text_color_asterisk">@color/activityColor</color>
-
-    <color name="btn_cancel">#E60000</color>
-    <color name="btn_resend">@color/paidColor</color>
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
 
 
-    <color name="backgroundCustomColor">#FFF</color>
-    <color name="amountsColor">#99EC0000</color><!-- montos y nip-->
-    <color name="activityColor">#EC0000</color><!-- progress wheel-->
-    <color name="genaralTitlesColor">#6F7779</color><!-- titulos del lado izquierda :D -->
-
-    <!-- Buttons-->
-    <color name="btnActiveBackgroundColor">@color/activityColor</color>
-    <color name="btnActiveFontColor">#FFF</color>
-
-    <color name="keyboard_number_color">@color/genaralTitlesColor</color>
-    <!-- Labels-->
-    <color name="lblTitleColor">@color/activityColor</color>  <!-- ups titulo de error-->
-    <color name="lblNormalColor">@color/genaralTitlesColor</color> <!-- mensaje de error -->
-
-    <!-- Error-->
-    <color name="errorColor">#FFCC33</color>
-
-    <!-- Card-->
-    <color name="stripeCardBackgroundColor">#DEEDF2</color><!-- tira en confiramacipon de pago -->
-    <color name="stripeCardTextColor">@color/genaralTitlesColor</color><!-- color del texto dentro de la tira -->
-
-    <!-- History-->
-    <color name="paidColor">#63B468</color>
-    <color name="pendingColor">#1bB3BC</color>
 </resources>
