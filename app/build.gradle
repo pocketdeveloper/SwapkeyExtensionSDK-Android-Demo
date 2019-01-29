@@ -28,5 +28,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     //
-    implementation 'com.github.pocketdeveloper:SwapKeyAndroidSDK:v0.2.5'
+    implementation 'com.github.pocketdeveloper:SwapKeyAndroidSDK:0.5.0'
 }
