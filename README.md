@@ -33,6 +33,8 @@ dependencies {
 Para inicializar el SDK, se deberá ejecutar el siguiente código
 ```
 new SecureDevicePreferences(androidContext).saveAPIKey("swap");
+// Cambiar bandera dependiendo el ambiente
+new SecureDevicePreferences(androidContext).saveIsProduction(false);
 ```
 
 #### Asignar un identificador de dispositivo
