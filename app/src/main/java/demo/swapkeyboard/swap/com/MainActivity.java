@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
         SecureDevicePreferences securePreferences = new SecureDevicePreferences(this);
         securePreferences.saveAPIKey("swap");
         securePreferences.saveDeviceId("DEVICE");
-
+       securePreferences.saveIsProduction(false);
     }
 }
