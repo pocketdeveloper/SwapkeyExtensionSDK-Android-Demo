@@ -46,7 +46,6 @@ new SecureDevicePreferences(androidContext).save("_GET_DEVICE()_");
 
 ## Guía de integración
 Se ha preparado una guía paso a paso con lo detalles para la integración:
-{SOME LINK}
 
 ## Versión
 [![](https://jitpack.io/v/pocketdeveloper/SwapKeyAndroidSDK.svg)](https://jitpack.io/#pocketdeveloper/SwapKeyAndroidSDK)
